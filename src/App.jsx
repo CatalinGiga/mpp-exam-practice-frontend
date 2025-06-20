@@ -4,8 +4,8 @@ import './App.css'
 import GameScreen from './GameScreen'
 import logo from './assets/react.svg'; // Use your own fantasy logo if available
 
-//const API_URL = 'https://mpp-exam-practice-backend.onrender.com'
-const API_URL = 'http://localhost:8000'
+const API_URL = 'https://mpp-exam-practice-backend.onrender.com'
+//const API_URL = 'http://localhost:8000'
 
 function App() {
   const [characters, setCharacters] = useState([]);
